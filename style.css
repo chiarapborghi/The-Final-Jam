@@ -38,11 +38,11 @@ body {
 
 @font-face {
     font-family: 'rock';
-    src: url('fonts/rockfont1.otf') format('opentype');
+    src: url('rockfont1.otf') format('opentype');
 }
 @font-face {
     font-family: 'wooden';
-    src: url('fonts/woodenfont.otf') format('opentype');
+    src: url('woodenfont.otf') format('opentype');
 }
 .header1 {
     background: linear-gradient(to right, #101010, #232121, #101010);
