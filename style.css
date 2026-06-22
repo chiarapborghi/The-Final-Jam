@@ -17,12 +17,11 @@ body {
 }
 .guitar {
     position: absolute;
-    top: 58%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 775px;
-    opacity: 0.10;
-    mix-blend-mode: overlay;
+    opacity: 0.15;
     filter: blur(1px);
     z-index: -1;
     pointer-events: none;
@@ -137,8 +136,8 @@ th, td {
 }
 @media screen and (max-width: 768px) {
     .guitar {
-        width: 90vw;
-        top: 30%;
+        width: 95vw;
+        top: 220px;
         left: 50%;
     }
 }
