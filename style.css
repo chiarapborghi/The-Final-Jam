@@ -166,8 +166,8 @@ th, td {
     }
 
     header h1{
-        font-size:50px;
-        -webkit-text-stroke:7px #ffffff;
+        font-size:42px;
+        -webkit-text-stroke:6px #ffffff;
         white-space:nowrap;
         width:auto;
         text-align:center;
@@ -219,7 +219,10 @@ th, td {
         font-size:40px;
         width:100vw;
         min-width:100vw;
+        font-size:42px;
+        -webkit-text-stroke:6px #ffffff;
     }
+
     nav{
         padding:8px 5px;
     }
