@@ -2,8 +2,6 @@
 body {
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
-    height: 150vh;
-    min-height: 150vh;
     position: relative;
     
 }
