@@ -2,30 +2,43 @@
 body {
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
+    height: 150vh;
+    min-height: 150vh;
     position: relative;
     
 }
 .page2{
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
+    height: 300vh;
+    min-height: 150vh;
     position: relative;
 }
 .page3{
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
+    height: 185vh;
+    min-height: 150vh;
     position: relative;
 }
 .guitar {
-    position: absolute;
-    top: 58%;
-    left: 55%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 775px;
+
+    width: min(80vw, 775px);
+
     opacity: 0.10;
     mix-blend-mode: overlay;
     filter: blur(1px);
-    z-index: -1;
+
+    z-index: 0;
     pointer-events: none;
+}
+header, nav, h2, p, table, .box {
+    position: relative;
+    z-index: 1;
 }
 
 @font-face {
@@ -134,24 +147,4 @@ th, td {
     width: 700px;          
     margin: 20px auto;
     text-align: center;
-}
-@media screen and (max-width: 768px) {
-    .guitar {
-        width: 90vw;
-        top: 45%;
-        left: 50%;
-    }
-}
-@media screen and (max-width: 768px) {
-    nav {
-        font-size: 40px;
-        height: auto;
-        flex-wrap: wrap;
-        padding: 10px 0;
-    }
-
-    a {
-        font-size: 20px;
-        margin-right: 10px;
-    }
 }
