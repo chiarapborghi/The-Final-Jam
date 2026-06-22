@@ -216,14 +216,9 @@ th, td {
 
     .header1{
         height:90px;
-        width:100%;
-        min-width:0;
-        overflow:hidden;
-    }
-    header h1{
-        font-size:45px;
-        -webkit-text-stroke:6px #ffffff;
-        white-space:nowrap;
+        font-size:40px;
+        width:100vw;
+        min-width:100vw;
     }
     nav{
         padding:8px 5px;
