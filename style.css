@@ -179,14 +179,15 @@ th, td {
         top:55%;
     }
     nav{
-        flex-wrap:nowrap;
+        flex-wrap:wrap;
+        justify-content:center;
         height:auto;
-        padding:12px 2px;
+        padding:8px 2px;
         width:100%;
     }
 
     a{
-        font-size:20px;
+        font-size:18px;
         margin-right:4px;
         font-weight:1000;
     }
@@ -238,6 +239,6 @@ th, td {
     }
 
     a{
-        font-size:22px;
+        font-size:18px;
     }
 }
