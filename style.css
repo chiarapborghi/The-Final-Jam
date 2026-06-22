@@ -22,7 +22,7 @@ body {
 }
 .guitar {
     position: fixed;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -149,8 +149,9 @@ th, td {
 }
 @media screen and (max-width:768px){
     .text{
-        width:95%;
+        width:98%;
         max-width:none;
+        padding:5px;
     }
     .header1{
         font-size:35px;
@@ -169,16 +170,20 @@ th, td {
     nav{
         flex-wrap:wrap;
         height:auto;
-        padding:10px 0;
+        padding:12px 5px;
+        width:100%;
     }
 
     a{
-        font-size:20px;
-        margin-right:10px;
+        font-size:24px;
+        margin-right:12px;
+        font-weight:1000;
     }
 
     h2{
         font-size:30px;
+        margin-left:5px;
+        margin-right:5px;
     }
 
     p{
@@ -186,7 +191,7 @@ th, td {
     }
 
     .table1{
-        width:98%;
+        width:99%;
         font-size:14px;
     }
     th,td{
@@ -200,20 +205,23 @@ th, td {
 
     .header1{
         height:90px;
-        font-size:35px;
+        font-size:40px;
     }
 
     nav{
-        padding:5px;
+        padding:8px 5px;
     }
 
     .guitar{
-        width:60vw;
-        top:60%;
+        width:55vw;
+        top:62%;
     }
 
     .text{
-        width:95%;
+        width:99%;
         max-width:none;
     }
-}
+
+    a{
+        font-size:22px;
+    }
