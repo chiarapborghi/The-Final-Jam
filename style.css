@@ -163,9 +163,13 @@ th, td {
         font-size:35px;
         width:100vw;
         min-width:100vw;
+        width:100vw;
+        overflow:hidden;
     }
 
     header h1{
+        font-size:30px;
+        -webkit-text-stroke:4px #ffffff;
         white-space:normal;
         width:100%;
         text-align:center;
