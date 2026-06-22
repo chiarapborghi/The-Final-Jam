@@ -8,15 +8,11 @@ body {
 .page2{
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
-    height: 300vh;
-    min-height: 150vh;
     position: relative;
 }
 .page3{
     background: linear-gradient(#e3ac20, #cf880e); 
     margin: 0;
-    height: 185vh;
-    min-height: 150vh;
     position: relative;
 }
 .guitar {
@@ -146,4 +142,16 @@ th, td {
         left: 50%;
     }
 }
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 40px;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
 
+    a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
