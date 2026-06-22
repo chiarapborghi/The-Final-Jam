@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Original+Surfer&display=swap');
+html{
+    overflow-x:hidden;
+}
 body {
     background: linear-gradient(#e3ac20, #cf880e);
     margin: 0;
@@ -148,6 +151,9 @@ th, td {
     text-align: center;
 }
 @media screen and (max-width:768px){
+    html{
+        overflow-x:hidden;
+    }
     .text{
         width:98%;
         max-width:none;
@@ -155,6 +161,8 @@ th, td {
     }
     .header1{
         font-size:35px;
+        width:100vw;
+        min-width:100vw;
     }
 
     header h1{
@@ -206,6 +214,8 @@ th, td {
     .header1{
         height:90px;
         font-size:40px;
+        width:100vw;
+        min-width:100vw;
     }
 
     nav{
@@ -225,3 +235,4 @@ th, td {
     a{
         font-size:22px;
     }
+}
