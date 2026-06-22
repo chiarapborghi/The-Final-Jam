@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Original+Surfer&display=swap');
 body {
-    background: linear-gradient(#e3ac20, #cf880e); 
+    background: linear-gradient(#e3ac20, #cf880e);
     margin: 0;
-    height: 150vh;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
-    
 }
 .page2{
-    background: linear-gradient(#e3ac20, #cf880e); 
+    background: linear-gradient(#e3ac20, #cf880e);
     margin: 0;
-    height: 300vh;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
 }
 .page3{
-    background: linear-gradient(#e3ac20, #cf880e); 
+    background: linear-gradient(#e3ac20, #cf880e);
     margin: 0;
-    height: 185vh;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
 }
 .guitar {
@@ -33,7 +29,7 @@ body {
     mix-blend-mode: overlay;
     filter: blur(1px);
 
-    z-index: 0;
+    z-index: -1;
     pointer-events: none;
 }
 header, nav, h2, p, table, .box {
@@ -147,4 +143,38 @@ th, td {
     width: 700px;          
     margin: 20px auto;
     text-align: center;
+}
+@media screen and (max-width:768px){
+
+    .guitar{
+        width:95vw;
+        opacity:0.08;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        height:auto;
+        padding:10px 0;
+    }
+
+    a{
+        font-size:20px;
+        margin-right:10px;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    p{
+        font-size:18px;
+    }
+
+    .table1{
+        width:95%;
+    }
+
+    .box{
+        width:90%;
+    }
 }
