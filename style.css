@@ -190,7 +190,7 @@ th, td {
     }
 
     a{
-        font-size:18px;
+        font-size:20px;
         margin-right:4px;
         font-weight:1000;
     }
@@ -208,6 +208,7 @@ th, td {
     .table1{
         width:99%;
         font-size:14px;
+        margin:0 auto;
     }
     th,td{
         padding:5px;
@@ -241,11 +242,15 @@ th, td {
     }
 
     .text{
-        width:99%;
+        width:92%;
         max-width:none;
+        padding:0;
+        margin:auto;
     }
 
     a{
-        font-size:18px;
+        font-size:20px;
+        margin-right:4px;
+        font-weight:1000;
     }
 }
